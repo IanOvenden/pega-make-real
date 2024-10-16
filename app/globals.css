@@ -22,9 +22,11 @@
 }
 
 .editor {
-	position: fixed;
+	position: relative;
 	inset: 0;
 	overflow: hidden;
+	width: 100%;
+	height: 80vh
 }
 
 .tldrawLogo {
@@ -144,4 +146,41 @@
 	align-items: center;
 	justify-content: center;
 	cursor: pointer;
+}
+
+.pega-header {
+    height: 80px;
+    width: 100vw;
+    background: white;
+    display: flex;
+    align-items: center;
+}
+
+.pega-header h1 {
+    display: inline;
+    color: #001f5f;
+    font-size: 1.5rem;
+}
+
+
+.pega-header .pega-logo{
+    height: 30px;
+    width: 137px;
+    margin-right: 20px;
+}
+
+.intro {
+    height: 30px;
+    width: 100vw;
+    background: #5f67b9;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+body {
+	margin: 0;
+	padding: 0;
 }
